@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Display</title>
+    <style>
+      /* .navigasi{
+         background-color: aqua; 
+      }  
+      .main{
+          background-color: rgb(114, 158, 114);
+      }
+      .main span{
+          background-color: greenyellow;
+      } */
+     
+      a{
+        background-color: aqua;
+        width: 200px;
+        height: 200px;
+        /* display: inline-block = perilaku dasarnya sama dengan elemen inline 
+        perbedaanya, elemen inline block dapat kita atur tinggi dan lebarnya.*/
+        display: inline-block;
+      }
+       /* display inline=  lebar dan tinggi defaulnya sesuai dengan konten yang ada di dalamnya */
+      span{
+          display: inline;
+          background-color: chartreuse;
+      }
+/* display block */
+      .main{
+          background-color: yellowgreen;
+           display: block;
+      }
+      .main h2{
+          background-color: orange;
+         
+      }
+    </style>
+</head> 
+
+<body>
+    <div class="header">
+        <h1> Selamat Datang Di Website kami</h1>
+    </div>
+    <div class="navigasi">
+        <!-- display inline = elemen Html yang secara default tidak menambahkan baris baru
+ketika di buat -->
+        <h2><span>Display</span></h2>
+        <a href="#">inline</a>
+        <a href="#">inline-block</a>
+        <a href="#">block</a>
+        <a href="#">none</a>
+      
+    </div>
+
+    <!-- display block -->
+    <div class="main">
+        <h2>Judul artikel</h2>
+        <p>Css layouting itu adalah  css untuk mengatur dan meletakkan atau memposisikan elemen-elemen html yg tlah kita buat 
+            menggunakan syntak css, jadi kita bisa mengatur ukuran,posisi, ataupun perilaku dari elemen-elemen html tersebut</p>
+
+    </div>
+
+    <div class="copyright">
+        <p>copyright 2015, web programming</p>
+
+    </div>
+</body>
+</html>
